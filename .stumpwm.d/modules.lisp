@@ -1,7 +1,7 @@
 ;;; Modules
-(set-module-dir "/home/mossheart/.stumpwm.d/modules/")
-(add-to-load-path "/home/mossheart/.stumpwm.d/modules/pamixer")
-(add-to-load-path "/home/mossheart/.stumpwm.d/modules/acpi-backlight")
+(set-module-dir "/home/mossattva/.stumpwm.d/modules/")
+(add-to-load-path "/home/mossattva/.stumpwm.d/modules/pamixer")
+(add-to-load-path "/home/mossattva/.stumpwm.d/modules/acpi-backlight")
 
 (load-module "pamixer")			
 (load-module "swm-gaps")

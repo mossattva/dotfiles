@@ -7,13 +7,13 @@
 (in-package :stumpwm)
 (setf *default-package* :stumpwm)
 
-(load "/home/mossheart/.stumpwm.d/modules.lisp")
-(load "/home/mossheart/.stumpwm.d/theme.lisp")
-(load "/home/mossheart/.stumpwm.d/keybinds.lisp")
-(load "/home/mossheart/.stumpwm.d/modeline.lisp")
+(load "/home/mossattva/.stumpwm.d/modules.lisp")
+(load "/home/mossattva/.stumpwm.d/theme.lisp")
+(load "/home/mossattva/.stumpwm.d/keybinds.lisp")
+(load "/home/mossattva/.stumpwm.d/modeline.lisp")
 
 ;;; Final INIT
-(acpi-backlight:init "intel_backlight")
+;; (acpi-backlight:init "intel_backlight")
 (when *initializing*
   (mode-line)
   (swm-gaps:toggle-gaps))
