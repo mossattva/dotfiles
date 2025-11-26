@@ -11,8 +11,10 @@
 (defvar *my-bindings*
   (let ((m (make-sparse-keymap)))
     (define-key m (kbd "e") "exec emacsclient --socket-name='/tmp/emacs1000/server' -c")
-    (define-key m (kbd "c") "exec urxvt")
+    (define-key m (kbd "c") "exec urxvtc")
     (define-key m (kbd "f") "exec firefox")
+    (define-key m (kbd "p") "exec pavucontrol")
+    (define-key m (kbd "d") "exec discord")    
     m ;
     ))
 

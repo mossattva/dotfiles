@@ -13,7 +13,7 @@
 (load "/home/mossattva/.stumpwm.d/modeline.lisp")
 
 ;;; Final INIT
-;; (acpi-backlight:init "intel_backlight")
+(acpi-backlight:init "amdgpu_bl0")
 (when *initializing*
   (mode-line)
   (swm-gaps:toggle-gaps))

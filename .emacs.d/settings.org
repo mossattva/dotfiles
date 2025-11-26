@@ -352,3 +352,13 @@
 
   (add-hook 'c-mode-common-hook 'my-c-mode-common-hook)
 #+end_src
+* PHP
+#+begin_src emacs-lisp
+  (use-package php-mode
+    :hook
+    (php-mode . lsp))
+#+end_src
+* HTML/CSS
+#+begin_src emacs-lisp
+  (use-package web-mode)
+#+end_src

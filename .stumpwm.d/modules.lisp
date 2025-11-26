@@ -8,7 +8,10 @@
 (load-module "battery-portable")
 (load-module "cpu")
 (load-module "mem")
-(load-module "wifi")
+;; (load-module "wifi")
 (load-module "acpi-backlight")
+;; (load-module "stump-backlight")
 (load-module "notifications")
 (load-module "swm-pomodoro")
+(load-module "net")
+
